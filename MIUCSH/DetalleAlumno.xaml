@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MIUCSH.DetalleAlumno">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="End"  BackgroundColor="#004677" HeightRequest="100" WidthRequest="500">
+                <Grid Margin="5,35,20,40" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"  />
+                        <ColumnDefinition Width="250"  />
+                        <ColumnDefinition Width="50"  />
+
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"  />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+
+
+                    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="#f6be00"
+           Text="MI UCSH" />
+
+                    <!-- Label Text=" "></   -->
+                </Grid>
+              </StackLayout>
+            
+        <StackLayout>
+            <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+            <Grid  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"  />
+                    <ColumnDefinition Width="250"  />
+                    <ColumnDefinition Width="50"  />
+
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="250"  />
+                  
+                </Grid.RowDefinitions>
+                <ImageButton Grid.Row="0" Grid.Column="0" Source="bgiro.png" HeightRequest="35" WidthRequest="35"
+                         Clicked="ImageButton_Clicked"     HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Image Grid.Row="0"  
+                          x:Name="FotoA"  Grid.Column="1" Source="silueta.jpg" HorizontalOptions="Center"   HeightRequest="250" WidthRequest="200" />
+
+                <ImageButton  Grid.Row="0" Grid.Column="2" Source="agiro.png" HeightRequest="35" WidthRequest="35"
+                         Clicked="ImageButton_Clicked_1"     HorizontalOptions="Center" VerticalOptions="Center"/>
+                
+             
+
+                <!-- Label Text=" "></   -->
+            </Grid>
+          <Button Text="Actualizar Fotografia" Clicked="Button_Clicked" />
+             <Grid>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"  />
+                    <ColumnDefinition Width="180"  />
+                    
+
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"  />
+                    <RowDefinition Height="30"  />
+                    <RowDefinition Height="50"  />
+                    <RowDefinition Height="30"  />
+                    <RowDefinition Height="30"  />
+                    
+                </Grid.RowDefinitions>
+            <Label FontSize="Medium" FontAttributes="Bold" Text="  " >
+            </Label>
+                 <Label  Grid.Row="0" Grid.Column="0" FontSize="Default" FontAttributes="Bold" Text="RUT:"/>
+                <Label Grid.Row="0" Grid.Column="1" x:Name="RutA"  FontSize="Default"  Text=" "></Label>
+                 <Label  Grid.Row="1" Grid.Column="0" FontSize="Default" FontAttributes="Bold" Text="NMAT:"/>
+                <Label  Grid.Row="1" Grid.Column="1" x:Name="XNmat" FontSize="Default"  Text="  " >
+
+            </Label>
+                 <Label  Grid.Row="2" Grid.Column="0" FontSize="Default" FontAttributes="Bold" Text="NOMBRE:"/>
+                <Label Grid.Row="2" Grid.Column="1" x:Name="NombreA" FontSize="Default"  Text=" "></Label>
+                <Label  Grid.Row="3" Grid.Column="0" FontSize="Default" FontAttributes="Bold" Text="CARRERA:"/>
+                <Label  Grid.Row="3" Grid.Column="1" x:Name="CarreraA" FontSize="Default"  Text="  "></Label>
+                 <Label  Grid.Row="4" Grid.Column="0" FontSize="Default" FontAttributes="Bold" Text="EMAIL:"/>
+                <Label  Grid.Row="4" Grid.Column="1" x:Name="EmailA" FontSize="Default"  Text=" "></Label>
+            <Label
+            FontSize="Medium" FontAttributes="Bold" Text="  " >
+
+            </Label>
+          </Grid>
+            
+            <!--ImageButton  Source="no.jpg" Clicked="CancelButtonClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+
+        </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

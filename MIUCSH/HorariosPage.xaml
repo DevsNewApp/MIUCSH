@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.HorariosPage">
+    <ContentPage.Content>
+       <StackLayout>
+           <StackLayout VerticalOptions="End"  BackgroundColor="#004677" HeightRequest="100" WidthRequest="500">
+         <Grid Margin="5,35,20,40" >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50"  />
+        <ColumnDefinition Width="250"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="70"  />
+        <RowDefinition Height="100" />
+         <RowDefinition Height="100" />
+        <RowDefinition Height="50" />
+         <RowDefinition Height="100" />
+         <RowDefinition Height="25" />
+         <RowDefinition Height="50" />
+         <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+         <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+    
+    
+    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="#f6be00"
+           Text="MI UCSH" />
+  
+    <!-- Label Text=" "></   -->
+    </Grid> 
+  </StackLayout>
+       
+           <StackLayout >
+               <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+               <Label x:Name="titulo" TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="HORARIOS" />
+               <!-- Label x:Name="titulo" TextColor="Black" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="HORARIOS" / -->
+           </StackLayout>
+        <StackLayout HeightRequest="50" VerticalOptions="Center" BackgroundColor="#f6be00">
+               <Label TextColor="Black" HeightRequest="50" VerticalTextAlignment="Center" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Seleccione el dia de la semana" />
+           </StackLayout>
+             <StackLayout HeightRequest="30" BackgroundColor="White">
+                 </StackLayout>
+     <Grid>
+         <Grid.RowDefinitions>
+             <RowDefinition  Height="60"/>
+             <RowDefinition  Height="30"/>
+             <RowDefinition  Height="60"/>
+             <RowDefinition  Height="30"/>
+             <RowDefinition  Height="60"/>
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="40" />
+             <ColumnDefinition Width="100" />
+             <ColumnDefinition Width="60" />
+              <ColumnDefinition Width="100" />
+         </Grid.ColumnDefinitions>
+         <Button x:Name="lunes" Grid.Row="0" Grid.Column="1" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green" BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Lunes"  Clicked="Button_Clicked"/>
+         <Button x:Name="martes" Grid.Row="0" Grid.Column="3" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green"  BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Martes" Clicked="Button_Clicked_1"/>
+         <Button x:Name="miercoles" Grid.Row="2" Grid.Column="1" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green"  BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Miercoles" Clicked="Button_Clicked_2"/>
+         <Button x:Name="jueves" Grid.Row="2" Grid.Column="3" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green"  BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Jueves" Clicked="Button_Clicked_3"/>
+         <Button x:Name="viernes" Grid.Row="4" Grid.Column="1" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green"  BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Viernes" Clicked="Button_Clicked_4"/>
+         <Button x:Name="sabado" Grid.Row="4" Grid.Column="3" BorderWidth="3" BackgroundColor="#f6be00" BorderColor="Green"  BorderRadius="10" WidthRequest="100" HeightRequest="60" Text="Sabado"   Clicked="Button_Clicked_5"/>
+         </Grid>
+    <!-- Button HeightRequest="30" Text="Consultar" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked" /  -->
+
+        <!--ImageButton  Source="no.jpg" Clicked="CancelButtonClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

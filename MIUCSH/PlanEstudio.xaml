@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.PlanEstudio">
+    <ContentPage.Content>
+      <StackLayout>
+           <StackLayout VerticalOptions="End"  BackgroundColor="DarkBlue" HeightRequest="100" WidthRequest="500">
+         <Grid Margin="5,35,20,40" >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50"  />
+        <ColumnDefinition Width="250"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="70"  />
+        <RowDefinition Height="100" />
+         <RowDefinition Height="100" />
+        <RowDefinition Height="50" />
+         <RowDefinition Height="100" />
+         <RowDefinition Height="25" />
+         <RowDefinition Height="50" />
+         <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+         <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+    
+    
+    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="Yellow"
+           Text="MI UCSH" />
+  
+    <!-- Label Text=" "></   -->
+    </Grid>
+      </StackLayout>
+       <StackLayout >
+           <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+               <Label x:Name="Titulos" TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Plan de Estudios" />
+           </StackLayout>
+<StackLayout HeightRequest="50" VerticalOptions="Center" BackgroundColor="LightYellow">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                       
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Grid.Row="0" Grid.Column="0" Source="izqui.jpg" HeightRequest="30" WidthRequest="30" Clicked="ImageButton_Clicked"></ImageButton>
+                <Label Grid.Row="0" Grid.Column="1" x:Name="DiaSem" TextColor="Black" HeightRequest="30" VerticalTextAlignment="Center" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="1" />
+                      <ImageButton Grid.Row="0" Grid.Column="2" Source="decha.jpg" HeightRequest="30" WidthRequest="30" Clicked="ImageButton_Clicked_1"></ImageButton>
+              
+                </Grid>
+            </StackLayout>
+
+        <!--Image HeightRequest="400"  Source="Pasis.png"  /-->
+     <StackLayout x:Name="Control" BackgroundColor="DarkBlue">
+         <Grid Padding="5" >
+                   <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="20"  />
+                       
+                 
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition   Width="250" />
+                        <ColumnDefinition Width="100" />
+
+                        <!-- ColumnDefinition Width="100" / -->
+                       
+                    </Grid.ColumnDefinitions>
+             <Label  BackgroundColor="DarkBlue" Grid.Row="0"
+                        VerticalOptions="FillAndExpand"    Grid.Column="0"
+                           Text="Actividad" TextColor="Yellow" FontAttributes="Bold"
+                           />
+             <Label  BackgroundColor="DarkBlue" Grid.Row="0"
+                        VerticalOptions="FillAndExpand"    Grid.Column="1"
+                           Text="Cod/Nota" TextColor="Yellow" FontAttributes="Bold"
+                           />
+             </Grid>
+         </StackLayout>
+            <StackLayout>
+    <ListView  x:Name="Plan" VerticalScrollBarVisibility="Always" RowHeight = "82" ItemsSource="{Binding Oferta}" >
+       <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell  Height="82" >
+                <Grid Padding="5">
+                   <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="40" />
+                       <RowDefinition Height="40" />
+                 
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition   Width="250" />
+                        <ColumnDefinition Width="100" />
+
+                        <!-- ColumnDefinition Width="100" / -->
+                       
+                    </Grid.ColumnDefinitions>
+                      <Label  BackgroundColor="White" Grid.Row="0"
+                        VerticalOptions="FillAndExpand"    Grid.Column="0" FontAttributes="Bold"
+                           Text="{Binding actividad}"
+                           />
+                     <Label  BackgroundColor="White"  Grid.Row="0" Grid.Column="1"
+                        VerticalOptions="FillAndExpand"    
+                           Text="{Binding codigo}"
+                           />
+                    
+                     <StackLayout Grid.Row="1" Grid.Column="0">
+                         <Grid>
+                            <Grid.RowDefinitions>
+                              <RowDefinition Height="20" />
+                       
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="10" />
+                              <ColumnDefinition   Width="65" />
+                              <ColumnDefinition Width="20" />
+                                <ColumnDefinition   Width="100" />
+                              <ColumnDefinition Width="20" />  
+                            </Grid.ColumnDefinitions>
+                             <Label Grid.Row="0" Grid.Column="1" BackgroundColor="White"  FontSize="Small" VerticalOptions="FillAndExpand" Text=" Creditos:"/>
+                             <Label Grid.Row="0" Grid.Column="2" BackgroundColor="White"  FontSize="Small" VerticalOptions="FillAndExpand" Text="{Binding credito}"/>
+                            
+                             <Label Grid.Row="0" Grid.Column="3" BackgroundColor="White"  FontSize="Small" VerticalOptions="FillAndExpand" Text="{Binding situacion}"/>
+                         </Grid>
+                     </StackLayout>
+                     <Label TextColor="{Binding tipoCredito}" BackgroundColor="White"  Grid.Row="1" Grid.Column="1"
+                        VerticalOptions="FillAndExpand"    
+                           Text="{Binding nota}"
+                           />
+           
+                </Grid>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+           </ListView>
+
+         </StackLayout>  
+
+
+ <Grid>
+            <Grid.RowDefinitions>
+                 <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+        <!--ImageButton Grid.Row="0" Grid.Column="0" Source="no.jpg" Clicked="CancelButtonClicked"
+                  
+                    VerticalOptions="CenterAndExpand" /-->
+                <!-- ImageButton Grid.Row="0" Grid.Column="2" Source="home.png" Clicked="CancelButtonClicked"
+                  
+                    VerticalOptions="CenterAndExpand" /  -->
+            </Grid>
+       </StackLayout>
+          
+     </ContentPage.Content>
+</ContentPage>

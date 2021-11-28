@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MIUCSH.NoiciasPage">
+    <ContentPage.Content>
+        <StackLayout Padding="0,35,0,40">
+            <Label Text="     ">
+
+            </Label>
+        <Button Text="  Retornar  " BackgroundColor="#f6be00"   HeightRequest="40"  HorizontalOptions="StartAndExpand" Clicked="Button_Clicked" />
+         <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" />
+         </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

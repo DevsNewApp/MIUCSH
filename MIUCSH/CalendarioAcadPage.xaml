@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.CalendarioAcadPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="End"  BackgroundColor="#004677" HeightRequest="100" WidthRequest="500">
+                <Grid Margin="5,35,20,40" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"  />
+                        <ColumnDefinition Width="250"  />
+                        <ColumnDefinition Width="50"  />
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"  />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="25" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="50" />
+                    </Grid.RowDefinitions>
+                    <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+
+
+                    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="#f6be00"
+           Text="MI UCSH" />
+                    <Image  Grid.Row="0" Grid.Column="2" Source="academi.png"   VerticalOptions="Start"  HeightRequest="50" WidthRequest="50" />
+
+                    <!-- Label Text=" "></   -->
+                </Grid>
+            </StackLayout>
+
+            <StackLayout >
+                   <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+                <Label Text="  " />
+                <Label x:Name="titulos" TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Calendario Academico" />
+                <!-- Label x:Name="Periodos" TextColor="Black" FontSize="Small" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="HORARIOS" /  -->
+            </StackLayout>
+            <StackLayout HeightRequest="50" VerticalOptions="Center" BackgroundColor="#f6be00">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"/>
+                        <ColumnDefinition Width="30"/>
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Grid.Row="0" Grid.Column="0" Source="izqui.jpg" HeightRequest="30" WidthRequest="30" Clicked="ImageButton_Clicked"></ImageButton>
+                    <Label Grid.Row="0" Grid.Column="1" x:Name="Mesver" TextColor="Black" HeightRequest="30" VerticalTextAlignment="Center" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Enero" />
+                    <ImageButton Grid.Row="0" Grid.Column="2" Source="decha.jpg" HeightRequest="30" WidthRequest="30" Clicked="ImageButton_Clicked_1"></ImageButton>
+
+                </Grid>
+            </StackLayout>
+            <ListView  x:Name="CalendarioAcademico"  RowHeight = "100" ItemsSource="{Binding Calendario}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell  Height="90"  >
+                            <Grid Padding="5" BackgroundColor="White">
+                                <Grid.RowDefinitions>
+
+                                    <RowDefinition Height="60" />
+                                    <RowDefinition Height="20" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition   Width="250" />
+                                    <ColumnDefinition Width="120" />
+
+                                    <!-- ColumnDefinition Width="100" / -->
+
+                                </Grid.ColumnDefinitions>
+                                <!-- Label IsVisible="{Binding Visible}"  BackgroundColor="LightSkyBlue" Grid.Row="0"
+                       VerticalOptions="FillAndExpand"     Grid.Column="0"
+                           Text="{Binding Dia}"
+                             /   -->
+
+                                <!--ImageButton Grid.Row="1" Grid.Column="0" Source="Mensaje.jpg" Clicked="MsgClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+
+                                <Label   Grid.Row="0"
+                        VerticalOptions="FillAndExpand"    Grid.Column="0"
+                           Text="{Binding actividad}"  FontAttributes="Bold"
+                           />
+
+                                <!-- Label  Grid.Row="0" FontSize="Small"
+                        VerticalOptions="FillAndExpand"    Grid.Column="1"
+                           Text="{Binding mes}"
+                           /   -->
+
+                                       <Label   Grid.Row="1" 
+                      VerticalOptions="FillAndExpand"      Grid.Column="0"
+                           Text="{Binding ini}"
+                           />
+                                <Label   Grid.Row="1"
+                      VerticalOptions="FillAndExpand"      Grid.Column="1"
+                           Text="{Binding fin}"
+                           />
+                         
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+            <!-- Button Text="Actualizar Fotografia" Clicked="Button_Clicked" /   -->
+
+            <!-- ImageButton  Source="no.jpg" Clicked="CancelButtonClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

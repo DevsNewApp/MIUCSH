@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <Configurations>Release;Debug</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1905" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.2" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MenuForma.xaml" />
+    <EmbeddedResource Remove="MenuForma.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MenuForma.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DestinosPage.xaml.cs">
+      <DependentUpon>DestinosPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.ProgramasPage">
+    <ContentPage.Content>
+
+      <StackLayout>
+           <StackLayout VerticalOptions="End"  BackgroundColor="DarkBlue" HeightRequest="100" WidthRequest="500">
+         <Grid Margin="5,35,20,40" >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50"  />
+        <ColumnDefinition Width="250"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="70"  />
+        <RowDefinition Height="100" />
+         <RowDefinition Height="100" />
+        <RowDefinition Height="50" />
+         <RowDefinition Height="100" />
+         <RowDefinition Height="25" />
+         <RowDefinition Height="50" />
+         <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+         <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+    
+    
+    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="Yellow"
+           Text="MI UCSH" />
+  
+    <!-- Label Text=" "></   -->
+    </Grid>
+                </StackLayout>
+       <StackLayout >
+           <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+               <Label TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="OFERTA ACADEMICA" />
+           </StackLayout>
+             <StackLayout >
+               <Label TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="PROGRAMAS" />
+                 <Label x:Name="Caption"   TextColor="Blue" FontSize="Default"  FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" Text="FACULTADES" />
+             </StackLayout>
+
+
+             <ListView  x:Name="Programas"  ItemTapped="Programas_ItemTapped" RowHeight = "60" ItemsSource="{Binding Facultad}" >
+
+
+       <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell  Height="60" >
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="60" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition   Width="60" />
+                        <ColumnDefinition Width="180" />
+                        <ColumnDefinition Width="160" />
+                       
+                    </Grid.ColumnDefinitions>
+                    <Button IsVisible="{Binding Visible}" BackgroundColor="LightYellow" Grid.Row="0"
+                           Grid.Column="0"
+                           Text="{Binding codigo}"  Clicked="Button_Clicked"
+                             />
+                    <!--ImageButton Grid.Row="1" Grid.Column="0" Source="Mensaje.jpg" Clicked="MsgClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+                    
+                    <Label VerticalOptions="Center"  Grid.Row="0"
+                           Grid.Column="1"
+                           Text="{Binding programa}"
+                           />
+                     <Label VerticalOptions="Center"  Grid.Row="0"
+                           Grid.Column="2"
+                           Text="{Binding jornada}"
+                           />
+                    
+                </Grid>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+           </ListView>
+
+
+
+       <!-- Label x:Name="Temp" Text="nada"  /  -->
+
+
+        <!--ImageButton  Source="no.jpg" Clicked="CancelButtonClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+
+
+
+
+
+</StackLayout>
+ 
+
+
+
+    </ContentPage.Content>
+</ContentPage>

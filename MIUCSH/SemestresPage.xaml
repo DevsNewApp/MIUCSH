@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.SemestresPage">
+  <ContentPage.Content>
+         <StackLayout>
+           <StackLayout VerticalOptions="End"  BackgroundColor="DarkBlue" HeightRequest="100" WidthRequest="500">
+         <Grid Margin="5,35,20,40" >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50"  />
+        <ColumnDefinition Width="250"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="70"  />
+        <RowDefinition Height="100" />
+         <RowDefinition Height="100" />
+        <RowDefinition Height="50" />
+         <RowDefinition Height="100" />
+         <RowDefinition Height="25" />
+         <RowDefinition Height="50" />
+         <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+         <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+    
+    
+    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="Yellow"
+           Text="MI UCSH" />
+  
+    
+
+ 
+    </Grid>
+  <!--        VVVVAVVVVV   -->
+
+  
+
+
+ <!--        VVVVAVVVVV   -->
+  </StackLayout>
+             
+       <StackLayout >
+           <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+               <Label TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Plan de Estudios" />
+           <Grid>
+               <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="200"  />
+        <ColumnDefinition Width="100"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="30"  />
+        <RowDefinition Height="30" />
+        <RowDefinition Height="30" />
+    </Grid.RowDefinitions>
+           <Label Grid.Row="0"  Grid.Column="0" TextColor="Black" FontSize="Default" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" Text="Año del Plan    :" />
+           <Label Grid.Row="0"  Grid.Column="1" TextColor="Black" FontSize="Default" x:Name="Anoaplan"  VerticalOptions="End" HorizontalOptions="Start" Text="2020" />
+           <Label Grid.Row="1"  Grid.Column="0" TextColor="Black" FontSize="Default" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" Text="Plan de Estudios:" />
+           <Label Grid.Row="1"  Grid.Column="1" TextColor="Black" FontSize="Default" x:Name="Planestu"  VerticalOptions="End" HorizontalOptions="Start" Text="4" />
+           <Label Grid.Row="2"  Grid.Column="0" TextColor="Black" FontSize="Default" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Start" Text="Semestre Actual :" />
+           <Label Grid.Row="2"  Grid.Column="1" TextColor="Black" FontSize="Default" x:Name="Semestre"  VerticalOptions="End" HorizontalOptions="Start" Text="400" />
+           
+
+           </Grid>
+       </StackLayout>
+        <StackLayout HeightRequest="50" VerticalOptions="Center" >
+               <Label TextColor="Black" HeightRequest="50" VerticalTextAlignment="Center" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="Seleccione el semestre" />
+           </StackLayout>
+             <StackLayout HeightRequest="30" BackgroundColor="White">
+                 </StackLayout>
+            
+
+
+
+     <Grid>
+         <Grid.RowDefinitions>
+             <RowDefinition  Height="50"/>
+             <RowDefinition  Height="30"/>
+             <RowDefinition  Height="50"/>
+             <RowDefinition  Height="30"/>
+             <RowDefinition  Height="50"/>
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="10" />
+             <ColumnDefinition Width="50" />
+             <ColumnDefinition Width="10" />
+              <ColumnDefinition Width="50" />
+              <ColumnDefinition Width="10" />
+              <ColumnDefinition Width="50" />
+              <ColumnDefinition Width="10" />
+              <ColumnDefinition Width="50" />
+               <ColumnDefinition Width="10" />
+              <ColumnDefinition Width="50" />
+         </Grid.ColumnDefinitions>
+         <Button Grid.Row="0" Grid.Column="1" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green" BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="1"  Clicked="Button_Clicked"/>
+         <Button Grid.Row="0" Grid.Column="3" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="2" Clicked="Button_Clicked_1"/>
+         <Button Grid.Row="0" Grid.Column="5" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="3" Clicked="Button_Clicked_2"/>
+         <Button Grid.Row="0" Grid.Column="7" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="4" Clicked="Button_Clicked_3"/>
+         <Button Grid.Row="0" Grid.Column="9" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="5" Clicked="Button_Clicked_4"/>
+         <Button Grid.Row="2" Grid.Column="1" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="6"   Clicked="Button_Clicked_5"/>
+         <Button Grid.Row="2" Grid.Column="3" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="7" Clicked="Button_Clicked_6"/>
+         <Button Grid.Row="2" Grid.Column="5" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="8" Clicked="Button_Clicked_7"/>
+         <Button Grid.Row="2" Grid.Column="7" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="9"   Clicked="Button_Clicked_8"/>
+         <Button Grid.Row="2" Grid.Column="9" BorderWidth="3" BackgroundColor="LightYellow" BorderColor="Green"  BorderRadius="0" WidthRequest="50" HeightRequest="50" Text="10"   Clicked="Button_Clicked_9"/>
+         </Grid>
+    <!-- Button HeightRequest="30" Text="Consultar" BackgroundColor="DarkBlue" TextColor="White" Clicked="Button_Clicked" /  -->
+
+        <!--ImageButton  Source="no.jpg" Clicked="CancelButtonClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+       </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

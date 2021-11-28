@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MIUCSH.CalificacionPage">
+  <StackLayout>
+           <StackLayout VerticalOptions="End"  BackgroundColor="#004677" HeightRequest="100" WidthRequest="500">
+         <Grid Margin="5,35,20,40" >
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="50"  />
+        <ColumnDefinition Width="250"  />
+        <ColumnDefinition Width="50"  />
+    
+
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="70"  />
+        <RowDefinition Height="100" />
+         <RowDefinition Height="100" />
+        <RowDefinition Height="50" />
+         <RowDefinition Height="100" />
+         <RowDefinition Height="25" />
+         <RowDefinition Height="50" />
+         <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+         <Image Source="NUcsh.png"
+            Grid.Row="0" Grid.Column="0"   HeightRequest="32" WidthRequest="32" />
+    
+    
+    <Label Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold" TextColor="#f6be00"
+           Text="MI UCSH" />
+  
+    <!-- Label Text=" "></   -->
+    </Grid> 
+  </StackLayout>
+       
+           <StackLayout >
+
+               <Button  BorderWidth="1" BorderColor="Black" HorizontalOptions="Start" FontAttributes="Bold"  Text="&lt; Retornar" Clicked="CancelButtonClicked" />
+        
+               <Label x:Name="titulo"   TextColor="Black" FontSize="Large" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="Center" Text="NOTAS" />
+           </StackLayout>
+     
+      <Label Grid.Row="0" 
+                           Grid.Column="0" x:Name="Mater"
+          FontSize="Medium" FontAttributes="Bold" Text="  " 
+          >
+ 
+       </Label>
+               <Grid Padding="5" x:Name="Grilla" Background="#004677" IsVisible="false">
+                   <Grid.RowDefinitions>
+                       <RowDefinition Height="40" />
+                   </Grid.RowDefinitions>
+                   <Grid.ColumnDefinitions>
+                       <ColumnDefinition Width="100" />
+                       <ColumnDefinition Width="100" />
+                       <ColumnDefinition Width="100" />
+                   </Grid.ColumnDefinitions>
+                     <Button Grid.Row="0" Grid.Column="0" FontSize="Small" WidthRequest="60" x:Name="Boton1"  Padding="0,0,0,5" Clicked="Boton1_Clicked"  IsVisible="false"/>
+                     <Button Grid.Row="0" Grid.Column="1" FontSize="Small" WidthRequest="60" x:Name="Boton2" Padding="0,0,0,5" Clicked="Boton2_Clicked" IsVisible="false"/>
+                     <Button Grid.Row="0" Grid.Column="2" FontSize="Small" WidthRequest="60" x:Name="Boton3"  Padding="0,0,0,5" Clicked="Boton3_Clicked" IsVisible="false"/>
+           
+               </Grid>
+              <Grid Padding="5" BackgroundColor="#004677">
+                    <Grid.RowDefinitions>
+                       
+                        
+                        <RowDefinition Height="20" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                     <ColumnDefinition   Width="10" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="60" />
+                         <ColumnDefinition Width="60" />
+                    </Grid.ColumnDefinitions>
+        <Label x:Name="Fechasa" VerticalOptions="Start"  Grid.Row="0" 
+                           Grid.Column="1" FontSize="Small"  TextColor="#f6be00"
+                           Text="Fecha"
+                           />
+        <Label VerticalOptions="Center"  Grid.Row="0" 
+                           Grid.Column="2" FontSize="Small"  TextColor="#f6be00"
+                           Text="Tipo"
+                           />
+        <Label VerticalOptions="Center"  Grid.Row="0" 
+                           Grid.Column="3" FontSize="Small"  TextColor="#f6be00"
+                           Text="Nota"
+                           />
+                    <Label VerticalOptions="Center"  Grid.Row="0"
+                           Grid.Column="4" FontSize="Small" TextColor="#f6be00"
+                           Text="Pond."
+                           />
+                 </Grid>          
+    
+    <ListView  x:Name="Notas"  RowHeight = "70" ItemsSource="{Binding Nota}"  >
+       <ListView.ItemTemplate>
+        <DataTemplate>
+            <ViewCell  Height="65" >
+                <Grid Padding="5">
+                    <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="65" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                         <ColumnDefinition   Width="10" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="60" />
+                         <ColumnDefinition Width="60" />
+                       
+                    </Grid.ColumnDefinitions>
+                    <!-- Label IsVisible="{Binding Visible}" BackgroundColor="LightSkyBlue" Grid.Row="0"
+                           Grid.Column="0"
+                           Text="{Binding Asignatura}"
+                             / -->
+                    <!--ImageButton Grid.Row="1" Grid.Column="0" Source="Mensaje.jpg" Clicked="MsgClicked"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand" /-->
+                     <Label VerticalOptions="Center" FontSize="Caption" FontAttributes="Bold" Grid.Row="0"
+                           Grid.Column="1"
+                           Text="{Binding Fecha}"
+                           />
+                    
+                    <Label VerticalOptions="Center" FontSize="Caption" FontAttributes="Bold" Grid.Row="0"
+                           Grid.Column="2"
+                           Text="{Binding Tipo}"
+                           />
+                   <Button Text="{Binding Nota}"  Grid.Row="0"
+                           Grid.Column="3" FontSize="Medium"  FontAttributes="Bold" BorderColor="Black" WidthRequest="60" HeightRequest="50"  BorderWidth="3" HorizontalOptions="Center" VerticalOptions="Center" />
+
+                     <Button Text="{Binding Ponderacion}"  Grid.Row="0"
+                           Grid.Column="4" FontSize="Body"  FontAttributes="Bold" BorderColor="Black" WidthRequest="60" HeightRequest="60" BorderRadius="30" BorderWidth="3" HorizontalOptions="Center" VerticalOptions="Center" />
+                   
+                     <!--Label VerticalOptions="Center"  Grid.Row="0"
+                           Grid.Column="3"
+                           Text="{Binding Nota}"
+                           / -->
+                    
+                </Grid>
+            </ViewCell>
+        </DataTemplate>
+    </ListView.ItemTemplate>
+           </ListView>
+
+     <Grid>
+         <Grid.RowDefinitions>
+                 <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="60"/>
+           </Grid.ColumnDefinitions>
+         <Label x:Name="etiqueta" Grid.Row="0"  Grid.Column="0" HorizontalOptions="End" FontSize="Large" FontAttributes="Bold"  Text="Final    " />
+     <Button  Grid.Row="0"  Grid.Column="1" x:Name="Final" Text="0"   IsVisible="false"  
+                          FontSize="Large" BorderColor="Green" WidthRequest="60" HeightRequest="60" BorderRadius="30" BorderWidth="3" HorizontalOptions="End" VerticalOptions="Center" Clicked="CancelButtonClicked"/>
+
+     
+     </Grid>
+     <Grid>
+            <Grid.RowDefinitions>
+                 <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="30"/>
+            </Grid.ColumnDefinitions>
+        <!-- ImageButton Grid.Row="0" Grid.Column="0" Source="no.jpg" Clicked="CancelButtonClicked"
+                  
+                    VerticalOptions="CenterAndExpand" /-->
+                <!-- ImageButton Grid.Row="0" Grid.Column="2" Source="home.png" Clicked="CancelButtonClicked"
+                  
+                    VerticalOptions="CenterAndExpand" / -->
+            </Grid>
+       </StackLayout>
+
+</ContentPage>
