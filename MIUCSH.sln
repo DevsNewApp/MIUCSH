@@ -107,5 +107,8 @@ Global
 		$14.inheritsSet = null
 		$14.scope = application/xaml
 		$0.VersionControlPolicy = $15
+		$15.CommitMessageStyle = $16
+		$16.IncludeDirectoryPaths = True
+		$16.LineAlign = 0
 	EndGlobalSection
 EndGlobal

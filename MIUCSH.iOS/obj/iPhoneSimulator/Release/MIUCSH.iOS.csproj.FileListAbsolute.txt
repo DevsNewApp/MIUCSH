@@ -1,0 +1,83 @@
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/MIUCSH.iOS.exe
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/MIUCSH.iOS.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Newtonsoft.Json.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Rg.Plugins.Popup.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Rg.Plugins.Popup.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Plugin.Media.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Plugin.Media.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Essentials.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Essentials.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Core.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Core.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.iOS.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Xaml.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Xaml.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/bin/iPhoneSimulator/Release/MIUCSH.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/MIUCSH.iOS.csproj.AssemblyReference.cache
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/MIUCSH.iOS.csproj.CoreCompileInputs.cache
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/MIUCSH.iOS.csproj.CopyComplete
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/MIUCSH.iOS.exe
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/MIUCSH.iOS.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/actool/_PartialAppManifest.items
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/actool/_BundleResourceWithLogicalName.items
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/coremlc/_PartialAppManifest.items
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/calend.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/notifica.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/calificado.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/planestudia.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/horarios.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/horas.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/thorario.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/regimenAsite.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/send.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/NUcsh.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/Pasis.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/advert.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/ina.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/ine.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/smensaje.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/home.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/trash.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/agiro.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/bgiro.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/bige.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/noti.png
+/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhoneSimulator/Release/device-builds/ipad pro (12.9-inch) (4th generation)-14.4/optimized/

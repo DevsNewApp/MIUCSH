@@ -1,0 +1,83 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/Tomas/Projects/MIUCSH/MIUCSH.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=mono_pmip

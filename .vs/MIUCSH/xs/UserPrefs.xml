@@ -1,0 +1,59 @@
+﻿<Properties GitUserInfo="UsingGIT" HasHotReloadOverlayBeenDismissed="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MIUCSH/MainPage.xaml.cs">
+    <Files>
+      <File FileName="MIUCSH/MainPage.xaml.cs" Line="35" Column="51" IsPinned="True" />
+      <File FileName="MIUCSH/App.xaml.cs" />
+      <File FileName="MIUCSH.iOS/Main.cs" />
+      <File FileName="MIUCSH.Android/Resources/values/colors.xml" />
+      <File FileName="MIUCSH/NoiciasPage.xaml.cs" />
+      <File FileName="MIUCSH.Android/Resources/xml/network_security_config.xml" />
+      <File FileName="MIUCSH/EscuelasPage.xaml.cs" />
+      <File FileName="MIUCSH/ValidaClass.cs" />
+      <File FileName="MIUCSH/MenuPage.xaml.cs" />
+      <File FileName="MIUCSH/Academica.cs" />
+      <File FileName="MIUCSH/AsisteClass.cs" />
+      <File FileName="MIUCSH/Asistencias.cs" />
+      <File FileName="MIUCSH/AssemblyInfo.cs" />
+      <File FileName="MIUCSH/CalenAcadClass.cs" />
+      <File FileName="MIUCSH/CalendarioAcadPage.xaml.cs" />
+      <File FileName="MIUCSH/CalificacionPage.xaml.cs" />
+      <File FileName="MIUCSH/DestinosPage.xaml.cs" />
+      <File FileName="MIUCSH/DetalleAlumno.xaml.cs" />
+      <File FileName="MIUCSH/FacultadesSel.xaml.cs" />
+      <File FileName="MIUCSH/HistoricoPage.xaml.cs" />
+      <File FileName="MIUCSH/HorariosPage.xaml.cs" />
+      <File FileName="MIUCSH/MiCalendario.xaml.cs" />
+      <File FileName="MIUCSH/MyPage.xaml.cs" />
+      <File FileName="MIUCSH/MyPlanEstudio.xaml.cs" />
+      <File FileName="MIUCSH/Notifica.xaml.cs" />
+      <File FileName="MIUCSH/OfertaDetallePage.xaml.cs" />
+      <File FileName="MIUCSH/OfertaPage.xaml.cs" />
+      <File FileName="MIUCSH/PlanEstudio.xaml.cs" />
+      <File FileName="MIUCSH/PopupNewTaskView.xaml.cs" />
+      <File FileName="MIUCSH/ProgramasPage.xaml.cs" />
+      <File FileName="MIUCSH/SelAsignaturas.xaml.cs" />
+      <File FileName="MIUCSH/SemestresPage.xaml.cs" />
+      <File FileName="MIUCSH.iOS/Properties/AssemblyInfo.cs" />
+      <File FileName="MIUCSH.iOS/AppDelegate.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MIUCSH" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>MIUCSH.iOS/MIUCSH.iOS.csproj</String>
+    <String>MIUCSH/MIUCSH.csproj</String>
+    <String>MIUCSH.Android/MIUCSH.Android.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

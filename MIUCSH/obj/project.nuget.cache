@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "pPehQTzGnGtyHzAjtoUVuvXFp0w8yqB/lvmk8ol7Q5zM0GnZqwqPLkGh0TCz/lX1OTBj18VpU08JQ3Ym93PK/g==",
+  "success": true,
+  "projectFilePath": "/Users/Tomas/Projects/MIUCSH/MIUCSH/MIUCSH.csproj",
+  "expectedPackageFiles": [
+    "/Users/Tomas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/rg.plugins.popup/2.0.0.2/rg.plugins.popup.2.0.0.2.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/xam.plugin.media/5.0.1/xam.plugin.media.5.0.1.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/Tomas/.nuget/packages/xamarin.forms/5.0.0.1905/xamarin.forms.5.0.0.1905.nupkg.sha512"
+  ],
+  "logs": []
+}

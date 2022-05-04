@@ -1,0 +1,17 @@
+MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2021-01-18 22:40:26.296050-0300 MIUCSH.iOS[12414:393827] Xamarin.iOS: Socket error while connecting to IDE on 127.0.0.1:10000: Connection refused
+2021-01-18 22:40:27.550174-0300 MIUCSH.iOS[12414:393819] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=12414
+2021-01-18 22:40:27.550548-0300 MIUCSH.iOS[12414:393819] SecTaskCopyDebugDescription: MIUCSH.iOS[12414]/0#-1 LF=0
+2021-01-18 22:40:27.561426-0300 MIUCSH.iOS[12414:393819] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=12414
+2021-01-18 22:40:27.561781-0300 MIUCSH.iOS[12414:393819] SecTaskCopyDebugDescription: MIUCSH.iOS[12414]/0#-1 LF=0
+2021-01-18 22:40:28.064271-0300 MIUCSH.iOS[12414:393819] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=12414
+2021-01-18 22:40:28.064603-0300 MIUCSH.iOS[12414:393819] SecTaskCopyDebugDescription: MIUCSH.iOS[12414]/0#-1 LF=0
+2021-01-18 22:40:31.407982-0300 MIUCSH.iOS[12414:393819] [unspecified] container_system_group_path_for_identifier: error = ((container_error_t)98) NOT_CODESIGNED
+2021-01-18 22:40:31.408335-0300 MIUCSH.iOS[12414:393819] [MC] Error getting system group container for systemgroup.com.apple.configurationprofiles: 98
+2021-01-18 22:40:31.408732-0300 MIUCSH.iOS[12414:393819] [MC] Failed to get profile system group container path. Overriding with expected path: /Users/Tomas/Library/Developer/CoreSimulator/Devices/32FF1CFE-6A11-46A5-8DD4-47C0D6EFA7BA/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2021-01-18 22:40:31.461031-0300 MIUCSH.iOS[12414:393819] WARNING: This app's CFBundleDevelopmentRegion is not a string value. This can lead to unexpected results at runtime. Please change CFBundleDevelopmentRegion in your Info.plist to a string value.
+2021-01-18 22:40:31.485337-0300 MIUCSH.iOS[12414:393819] Can't find keyplane that supports type 8 for keyboard iPhone-PortraitChoco-DecimalPad; using 25930_PortraitChoco_iPhone-Simple-Pad_Default
+2021-01-18 22:40:41.521512-0300 MIUCSH.iOS[12414:393825] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=12414
+2021-01-18 22:40:41.521984-0300 MIUCSH.iOS[12414:393825] SecTaskCopyDebugDescription: MIUCSH.iOS[12414]/0#-1 LF=0
+2021-01-18 22:40:41.522906-0300 MIUCSH.iOS[12414:393825] [] nw_protocol_get_quic_image_block_invoke dlopen libquic failed
+2021-01-18 22:42:06.702612-0300 MIUCSH.iOS[12414:393819] [Snapshotting] Snapshotting a view (0x7fa8f312c600, UIKeyboardImpl) that has not been rendered at least once requires afterScreenUpdates:YES.

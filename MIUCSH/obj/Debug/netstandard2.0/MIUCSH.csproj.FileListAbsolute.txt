@@ -1,0 +1,99 @@
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.deps.json
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.dll
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/ref/MIUCSH.dll
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.pdb
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csprojAssemblyReference.cache
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/CalificacionPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/DestinosPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/EscuelasPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/FacultadesSel.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/HorariosPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MenuPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MiCalendario.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPlanEstudio.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/Notifica.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaDetallePage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PlanEstudio.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PopupNewTaskView.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ProgramasPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SelAsignaturas.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SemestresPage.xaml.g.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfoInputs.cache
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfo.cs
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csproj.CoreCompileInputs.cache
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.dll
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ref/MIUCSH.dll
+C:/Users/Thom/source/repos/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.pdb
+D:/Respaldo UCSH/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.deps.json
+D:/Respaldo UCSH/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.dll
+D:/Respaldo UCSH/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/ref/MIUCSH.dll
+D:/Respaldo UCSH/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.pdb
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csprojAssemblyReference.cache
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/App.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/CalendarioAcadPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/CalificacionPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/DestinosPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/EscuelasPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/FacultadesSel.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/HistoricoPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/HorariosPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MenuPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MiCalendario.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPlanEstudio.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/Notifica.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaDetallePage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PlanEstudio.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PopupNewTaskView.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ProgramasPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SelAsignaturas.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SemestresPage.xaml.g.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfoInputs.cache
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfo.cs
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csproj.CoreCompileInputs.cache
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/XamlC.stamp
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.dll
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ref/MIUCSH.dll
+D:/Respaldo UCSH/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.deps.json
+/Users/Tomas/Projects/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/ref/MIUCSH.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH/bin/Debug/netstandard2.0/MIUCSH.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/CalendarioAcadPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/CalificacionPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/DestinosPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/DetalleAlumno.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/EscuelasPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/FacultadesSel.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/HistoricoPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/HorariosPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MenuPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MiCalendario.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MyPlanEstudio.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/Notifica.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaDetallePage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/OfertaPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PlanEstudio.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/PopupNewTaskView.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ProgramasPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SelAsignaturas.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/SemestresPage.xaml.g.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfoInputs.cache
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.AssemblyInfo.cs
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csproj.CoreCompileInputs.cache
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/ref/MIUCSH.dll
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.pdb
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/MIUCSH.csproj.AssemblyReference.cache
+/Users/Tomas/Projects/MIUCSH/MIUCSH/obj/Debug/netstandard2.0/NoiciasPage.xaml.g.cs

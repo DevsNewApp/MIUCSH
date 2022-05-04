@@ -1,0 +1,6 @@
+/Users/Tomas/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/proguard/monoandroid90/proguard.txt;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/a444b389-938c-4502-97a8-57a293011960.txt
+/Users/Tomas/.nuget/packages/xamarin.android.arch.lifecycle.runtime/1.1.1.3/proguard/monoandroid90/proguard.txt;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/12c0478d-5b91-44a0-8dd9-12065ae2c322.txt
+/Users/Tomas/.nuget/packages/xamarin.android.support.compat/28.0.0.3/proguard/monoandroid90/proguard.txt;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/cf36753d-65e9-4e52-84fa-a5e2c5629f6d.txt
+/Users/Tomas/.nuget/packages/xamarin.android.arch.lifecycle.viewmodel/1.1.1.3/proguard/monoandroid90/proguard.txt;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/9e4632ba-aa8c-487a-9982-e4881a894d9d.txt
+/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/aapt_rules.txt;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/c0c97ad6-60d5-4248-82bc-acad6e64f113.txt
+/Users/Tomas/.nuget/packages/xamarin.forms/5.0.0.1905/buildTransitive/MonoAndroid10/proguard.cfg;/Users/Tomas/Projects/MIUCSH/MIUCSH.Android/obj/Release/androidx/proguard/e01c108b-69b6-4d54-b464-5d53cb3832da.cfg
